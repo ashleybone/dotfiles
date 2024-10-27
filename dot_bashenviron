@@ -1,0 +1,26 @@
+# .bashenviron
+
+# Aliases for common commands.
+alias l='lsd -F -N --group-directories-first --hyperlink=always'
+alias ll='l -l'
+alias la='l -A'
+alias lt='l --tree --depth=2'
+
+alias grep='grep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias egrep='egrep --color=auto'
+
+alias dust='dust -b'
+alias duf='duf -only local'
+
+alias envgrep="printenv | grep"
+
+# Gaming exports
+export MANGOHUD=1
+
+# Other exports
+export LESS='-R '
+export QUOTING_STYLE=literal
+
+# Dir colors
+eval `dircolors`

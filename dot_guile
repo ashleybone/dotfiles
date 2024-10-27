@@ -1,0 +1,3 @@
+(use-modules (ice-9 readline)
+			 (srfi srfi-11))
+(activate-readline)

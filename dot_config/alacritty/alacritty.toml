@@ -1,0 +1,22 @@
+# Alacritty Config
+
+[window]
+# Translucent window
+opacity=0.7
+
+[scrolling]
+# Disable scrollback buffer
+history=0
+
+[font]
+normal={family="FiraCode Nerd Font", style="Regular"}
+size = 12
+
+[colors]
+# Apply transparency to the entire window.
+transparent_background_colors=true
+primary={background = "#0E1415", foreground = "#CECECE"}
+
+[cursor]
+style={shape="Block", blinking="Always"}
+blink_timeout=0
