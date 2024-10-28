@@ -1,0 +1,9 @@
+[Unit]
+Description=Starts a persistent tmux server.
+
+[Service]
+ExecStart=/usr/bin/tmux -2 -D
+ExecStop=/usr/bin/tmux kill-server
+
+[Install]
+WantedBy=default.target
