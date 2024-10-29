@@ -1,0 +1,13 @@
+{{ if eq .chezmoi.hostname "mnemosyne" }}
+.config/alacritty
+.config/fish
+.config/starship.toml.example
+.config/systemd/user/tmux.service
+.config/tmux
+.emacs.d/init.el
+.local/share/applications
+{{ else if eq .chezmoi.hostname "regulus" }}
+.config/alacritty
+.config/systemd/user/tmux.service
+.local/share/applications
+{{ end }}
