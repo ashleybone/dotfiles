@@ -10,4 +10,13 @@
 .config/alacritty
 .config/systemd/user/tmux.service
 .local/share/applications
+{{ else if eq .chezmoi.hostname "fornax" }}
+.config/alacritty
+.config/fish
+.config/starship.toml.example
+.config/systemd/user/tmux.service
+.config/tmux
+.emacs.d/init.el
+.guile
+.local/share/applications
 {{ end }}
