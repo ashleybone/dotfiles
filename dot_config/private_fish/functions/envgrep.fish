@@ -1,3 +1,3 @@
 function envgrep
-	printenv|grep $argv
+	set -x|grep $argv
 end
